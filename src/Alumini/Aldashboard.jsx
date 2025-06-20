@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars, FaUserCircle } from 'react-icons/fa';
-import './AlDashboard.css';
+import './Aldashboard.css'
 import Profil from './Profil';
 import Menu from './Menu';
 import { useNavigate } from 'react-router-dom';
