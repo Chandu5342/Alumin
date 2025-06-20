@@ -1,0 +1,71 @@
+.networkinghub-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.groups-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.group-card {
+  background-color: #f1f9ff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.group-card h3 {
+  margin: 0 0 8px;
+  color: #0056b3;
+}
+
+.group-card p {
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.add-btn, .exit-btn {
+  padding: 10px 18px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.add-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.add-btn:hover {
+  background-color: #0056b3;
+}
+
+.exit-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.exit-btn:hover {
+  background-color: #a71d2a;
+}
+.add-btn {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 242, 254, 0.4);
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+  width: 150px;  /* Makes the button box fixed width */
+  text-align: center;
+}
+

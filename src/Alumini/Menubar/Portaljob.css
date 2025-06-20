@@ -1,0 +1,133 @@
+/* Portaljob.css */
+
+.portaljob-container {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.1);
+}
+
+.top-button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.add-btn {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+  transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: #357abd;
+}
+
+.add-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.5);
+}
+
+.job-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.job-form input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1.5px solid #ccc;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.job-form input[type="text"]:focus {
+  border-color: #4a90e2;
+}
+
+.job-form button[type="submit"] {
+  padding: 10px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.job-form button[type="submit"]:hover {
+  background-color: #357abd;
+}
+
+.posts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.no-posts {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+}
+
+.post-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.05);
+  position: relative;
+}
+
+.post-item h3 {
+  margin: 0 0 6px 0;
+  color: #222;
+}
+
+.post-item p {
+  margin: 4px 0;
+  color: #444;
+}
+
+.remove-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: #e94e4e;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.remove-btn:hover {
+  background-color: #b83030;
+}
+
+.remove-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(233, 78, 78, 0.5);
+}

@@ -1,0 +1,77 @@
+/* Reset body and html to full size and no margin */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Full screen background with top content */
+.dashboard-container {
+  min-height: 100vh; /* ensure container covers full viewport height */
+  width: 100vw;      /* full viewport width */
+  background-image: url('https://wallpapercave.com/wp/wp2417737.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column; /* stack children vertically */
+}
+
+/* Top bar layout */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* Logo + title on left */
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.right-section {
+  display: flex;
+  gap: 1rem;
+  margin-left: auto; /* pushes this section to the right */
+}
+
+.login-button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #f2f8ff;
+}
+.dashboard-tagline {
+  margin-top: 40px;
+  font-size: 50px;
+  font-weight: 1000;
+  color: #ffffff;  /* A nice blue color to match buttons */
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.8px;
+}

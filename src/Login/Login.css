@@ -1,0 +1,73 @@
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Login full page layout */
+.login-page {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f0f4f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 50px;
+}
+
+/* Heading */
+.login-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Flex layout for login sections */
+.login-container {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Individual login box styling */
+.login-box {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  min-width: 250px;
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 1.5rem;
+  color: #007bff;
+}
+
+.form-button {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.7rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+.login-logo {
+  height: 80px;
+  margin-bottom: 1rem;
+}
+
+
+

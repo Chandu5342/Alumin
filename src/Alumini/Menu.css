@@ -1,0 +1,44 @@
+.menu-sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  height: 100%;
+  width: 250px;
+  background-color: #004080;
+  color: white;
+  padding: 2rem 1rem;
+  transition: left 0.3s ease;
+  z-index: 1000;
+}
+
+.menu-sidebar.open {
+  left: 0;
+}
+
+.menu-sidebar .close-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.menu-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-sidebar ul li {
+  margin: 1rem 0;
+}
+
+.menu-sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.menu-sidebar ul li a:hover {
+  text-decoration: underline;
+}

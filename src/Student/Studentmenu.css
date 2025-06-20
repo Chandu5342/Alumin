@@ -1,0 +1,84 @@
+/* src/Student/Studentmenu.css */
+.student-dashboard {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+}
+
+.student-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #2980b9, #6dd5fa);
+  color: white;
+  padding: 16px 32px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-icon {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.nav-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.student-main {
+  padding: 32px;
+}
+
+.alumni-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.alumni-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.alumni-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.profile-dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 35px;
+  right: 0;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+}
+
+.dropdown-menu button {
+  padding: 8px 12px;
+  margin: 4px 0;
+  background-color: #004080;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: left;
+}
+

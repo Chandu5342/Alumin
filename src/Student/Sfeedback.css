@@ -1,0 +1,55 @@
+.feedback-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #f9faff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.feedback-container h2 {
+  margin-bottom: 16px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.feedback-container textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  resize: vertical;
+  font-size: 16px;
+  font-family: inherit;
+  margin-bottom: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.feedback-container textarea:focus {
+  outline: none;
+  border-color: #4facfe;
+}
+
+.feedback-container button {
+  background: #4facfe;
+  color: white;
+  padding: 12px 28px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+.feedback-container button:hover {
+  background: #00f2fe;
+}
+
+.success-msg {
+  color: green;
+  margin-bottom: 12px;
+  text-align: center;
+}

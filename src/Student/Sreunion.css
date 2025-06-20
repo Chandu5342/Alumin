@@ -1,0 +1,77 @@
+.reunion-container {
+  max-width: 700px;
+  margin: 40px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  background-color: #f0f8ff;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.reunion-container h2 {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 24px;
+}
+
+.reunion-list {
+  list-style: none;
+  padding: 0;
+}
+
+.reunion-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 18px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+  transition: box-shadow 0.3s ease;
+}
+
+.reunion-card:hover {
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+.reunion-card h3 {
+  margin: 0 0 10px 0;
+  color: #1a237e;
+}
+
+.reunion-card p {
+  margin: 6px 0;
+  color: #555;
+}
+
+.reunion-actions {
+  margin-top: 15px;
+}
+
+.join-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.join-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.exit-btn {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.exit-btn:hover {
+  background-color: #dc2626;
+}

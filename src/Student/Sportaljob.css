@@ -1,0 +1,85 @@
+.job-portal-container {
+  max-width: 700px;
+  margin: 40px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  background-color: #f9faff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.job-portal-container h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #2c3e50;
+}
+
+.job-list {
+  list-style: none;
+  padding: 0;
+}
+
+.job-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 18px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.07);
+  transition: box-shadow 0.3s ease;
+}
+
+.job-card:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+}
+
+.job-card h3 {
+  margin: 0 0 8px 0;
+  color: #222;
+}
+
+.job-card p {
+  margin: 6px 0;
+  color: #555;
+}
+
+.job-actions {
+  margin-top: 12px;
+  display: flex;
+  gap: 16px;
+}
+
+.apply-btn {
+  background-color: #4facfe;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.apply-btn:hover:not(:disabled) {
+  background-color: #00f2fe;
+}
+
+.apply-btn:disabled,
+.apply-btn.applied {
+  background-color: #7fbcf4;
+  cursor: default;
+}
+
+.delete-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #ff1a1a;
+}

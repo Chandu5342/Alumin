@@ -1,0 +1,92 @@
+.feedback-container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.feedback-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.feedback-form label {
+  display: block;
+  margin-bottom: 15px;
+  color: #444;
+  font-weight: 600;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form textarea {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 6px;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  font-family: inherit;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+}
+
+.feedback-form input[type="text"]:focus,
+.feedback-form input[type="email"]:focus,
+.feedback-form textarea:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+.rating-options {
+  margin-top: 6px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.rating-options label {
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.rating-options input[type="radio"] {
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #357abd;
+}
+
+.confirmation {
+  margin-top: 18px;
+  padding: 12px;
+  background-color: #d4edda;
+  color: #155724;
+  border-radius: 6px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.required {
+  color: red;
+  margin-left: 2px;
+}
