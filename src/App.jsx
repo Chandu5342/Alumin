@@ -16,7 +16,7 @@ import Networkinghub from './Alumini/Menubar/Networkinghub';
 import Portaljob from './Alumini/Menubar/Portaljob';
 import Studentdirectory from './Alumini/Menubar/Studentdirectory';
 import Reunion from './Alumini/Menubar/Reunion';
-import StudentMenu from './Student/studentmenu.jsx';
+import StudentMenu from './Student/Studentmenu';
 
 import Smenubar from './Student/Smenubar';
 import Stprofil from './Student/Stprofil';
